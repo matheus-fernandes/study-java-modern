@@ -1,4 +1,4 @@
-package study.completablefuture;
+package study.cpfuture;
 import static java.util.concurrent.CompletableFuture.*;
 import java.util.concurrent.ExecutionException;
 

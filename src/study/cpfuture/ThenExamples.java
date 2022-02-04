@@ -1,7 +1,6 @@
-package study.completablefuture;
+package study.cpfuture;
 
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 
 import static java.util.concurrent.CompletableFuture.*;
 

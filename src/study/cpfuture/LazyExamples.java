@@ -1,4 +1,4 @@
-package study.completablefuture;
+package study.cpfuture;
 
 import java.util.concurrent.CompletableFuture;
 
