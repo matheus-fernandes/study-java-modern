@@ -1,0 +1,25 @@
+* unnamed modules <--- everything from the legacy way "classpath" goes here
+
+* automatic module <--- old stuff in the modulepath way
+
+* explicitly named modules - new stuff in the module path (has a module descriptor)
+
+- unnamed modules can talck to other unnamed modules
+- automatic modules can talk to other automatic modules
+- automatic modules can talk to unnamed modules
+- unnamed modules can not talk to automatic modules
+- explicit named module can talk to automatic modules
+- explicit named module can not talk to unnamed modules
+- explicit named module has to requires any modules it needs
+    - including automatic modules
+- an explicit named module exports only what it specifically exports
+- an automatic named modules automatically exports all its packages
+
+legacy to modules:
+starting with legacy
+run them all in the classpath in old java
+run then all in the classpath in moderna java
+    fix any errors
+run them all in modulepath
+give names for automatic modules
+convert from top to bottom to explicit modules

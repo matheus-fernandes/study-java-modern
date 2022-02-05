@@ -1,0 +1,3 @@
+module thesecond {
+    requires thefirst;
+}
